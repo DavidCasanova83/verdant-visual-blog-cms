@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: DavidCasanova83/verdant-visual-blog-cms.git
+  repo: DavidCasanova83/verdant-visual-blog-cms
   branch: master
   auth_type: implicit
-  base_url: "https://verdant-visual-blog-cms.vercel.app/admin"
+  base_url: "https://verdant-visual-blog-cms.vercel.app/admin/"
 
 media_folder: "public/images/uploads" # Où les images uploadées seront stockées
 public_folder: "/images/uploads" # Chemin public pour ces images
