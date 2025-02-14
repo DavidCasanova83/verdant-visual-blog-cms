@@ -1,0 +1,22 @@
+# admin/config.yml
+backend:
+  name: github
+  repo: ton-utilisateur/ton-repo # Remplace par ton nom d'utilisateur et le repo de ton blog
+  branch: master # ou master, selon ta config
+  auth_type: implicit # Pour Netlify ou Vercel, souvent c’est implicit
+
+media_folder: "public/images/uploads" # Où les images uploadées seront stockées
+public_folder: "/images/uploads" # Chemin public pour ces images
+
+collections:
+  - name: "blog"
+    label: "Articles de Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Date de publication", name: "pubDate", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
