@@ -1,7 +1,7 @@
 # admin/config.yml
 backend:
   name: github
-  repo: ton-utilisateur/ton-repo # Remplace par ton nom d'utilisateur et le repo de ton blog
+  repo: DavidCasanova83/verdant-visual-blog-cms # Remplace par ton nom d'utilisateur et le repo de ton blog
   branch: master # ou master, selon ta config
   auth_type: implicit # Pour Netlify ou Vercel, souvent c’est implicit
 
