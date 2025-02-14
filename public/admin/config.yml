@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: DavidCasanova83/verdant-visual-blog-cms.git
   branch: master
 
 media_folder: "public/images/uploads" # Où les images uploadées seront stockées
