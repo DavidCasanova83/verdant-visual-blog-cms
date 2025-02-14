@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: DavidCasanova83/verdant-visual-blog-cms
+  name: git-gateway
   branch: master
-  auth_type: implicit
 
 media_folder: "public/images/uploads" # Où les images uploadées seront stockées
 public_folder: "/images/uploads" # Chemin public pour ces images
